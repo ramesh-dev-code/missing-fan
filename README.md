@@ -5,9 +5,9 @@
 
 ### Fan Images   
 **PASS: Presence of all four fans**    
-![](https://i.imgur.com/cWi4kss.png)   
+![](https://i.imgur.com/SkbSnmA.png)      
 **FAIL: At least one fan is missing**   
-![](https://i.imgur.com/yPgDLPO.png)  
+![](https://i.imgur.com/JX6PcBQ.png)   
 
 ### Dataset and Preprocessing   
 1. Dataset: 705 images (PASS), 1000 images (FAIL). The images are captured at different distances from the device and also at different angles to induce more variations in the training (80%) and validation (20%) datasets  
@@ -16,9 +16,9 @@
 4. Subtract the per-channel mean of the imagenet dataset (RGB:[123.68, 116.779, 103.939]) from the resized image   
 **Preprocessed Images**   
 **PASS**   
-![](https://i.imgur.com/O4cyw36.png)   
+![](https://i.imgur.com/CJANvVj.png)   
 **FAIL**   
-![](https://i.imgur.com/sjUyCha.png)   
+![](https://i.imgur.com/YaPcYg3.png)   
 
 ### Training
 1. Refer to the [Fine-tuning](https://github.com/ramesh-dev-code/misaligned-heat-sink#fine-tuning-steps) steps to train the pre-trained VGG-16 model on the target dataset
